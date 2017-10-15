@@ -1,0 +1,34 @@
+{
+  "name": "kicad_bom",
+  "version": "0.1.0",
+  "description": "Generate kicad BOM list for Mouser/Digikey/...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gulp validate:eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dbroqua/Kicad_bom.git"
+  },
+  "keywords": [
+    "Kicad",
+    "digikey",
+    "mouser",
+    "bom"
+  ],
+  "author": "Damien Broqua (contact@darkou.fr)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Dbroqua/Kicad_bom/issues"
+  },
+  "homepage": "https://github.com/Dbroqua/Kicad_bom#readme",
+  "dependencies": {
+    "xml2js": "^0.4.19"
+  },
+  "bin": "KiCad_BOM.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0"
+  }
+}
