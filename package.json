@@ -1,6 +1,6 @@
 {
   "name": "kicad_bom",
-  "version": "0.1.1",
+  "version": "0.2",
   "description": "Generate kicad BOM list for Mouser/Digikey/...",
   "main": "index.js",
   "scripts": {
